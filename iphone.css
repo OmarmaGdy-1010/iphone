@@ -1,0 +1,115 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    
+}
+
+.contanir {
+    width: 80%;
+    margin: 0 auto;
+    position:relative;
+        height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a img {
+    padding: 10px 0;
+    width: 75px;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 45px;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: ease 0.4s;
+    padding: 5px 10px;
+}
+
+header ul li a:hover {
+    font-size: 20px;
+    padding: 0px 4px 0px 0px;
+    color: gold;
+}
+
+
+.contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.contant .letters-area h1 {
+    font-size: 40px;
+
+}
+
+.contant .letters-area p {
+    max-width: 450px;
+    font-size: 18px;
+    margin: 20px 0;
+    line-height: 28px;
+
+}
+
+.contant .letters-area a {
+    text-decoration: none;
+    background-color: #fdfdfd;
+    padding: 8px 13px;
+    font-weight: bold;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: ease 0.3s;
+}
+.contant .letters-area a:hover{
+    padding: 10px 16px;
+    letter-spacing: 2px;
+    background-color: rgb(255, 206, 133);
+}
+
+.seems{
+    margin-top: 90px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.icon img{
+    width: 60px;
+    margin: 0 5px;
+    transition: ease 0.4s;
+    cursor: pointer;
+}
+.icon{
+    margin: auto;
+}
+.icon img:hover{
+    transform: scale(1.2);
+}
+@media only screen and (max-width: 600px) {
+header{
+    display: grid;
+}
+ul li {
+    display: inline-block;
+}
+}
